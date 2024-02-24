@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* #bg-flowers {
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url(../img/background.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #009AD8;
+  --bs-btn-border-color: #009AD8;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #007eaf;
+  --bs-btn-hover-border-color: #007eaf;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #007eaf;
+  --bs-btn-active-border-color: #007eaf;
+  --bs-btn-active-shadow: inset 0 3px 5px #00000020;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #009AD8;
+  --bs-btn-disabled-border-color: #009AD8;
+}
+
+#navbar {
+  background-color: #1E73A0 !important;
+}
+
+#home img {
+  margin-top: 2rem !important;
+  max-height: 100vh !important;
+  object-fit: cover !important;
+}
+
+#home .left{
+  left: 10% !important;
+}
+
+#home .right{
+  left: 70% !important;
+}
+
+#home .blue-style{
+  color: #009AD8 !important;
+  top: 20% !important;
+  text-align: left;
+}
+
+#home .blue-style h2{
+  font-family: 'Pacifico' !important;
+}
+
+#home .slide-title{
+  top: 30% !important;
+  left: 10% !important;
+  text-align: left;
+}
+
+#who-am-i .container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#who-am-i h1, #contact h1{
+  color: #009AD8 !important;
+}
+
+#who-am-i p{
+  color: #8D8D8D !important;
+}
+
+#services, #summary{
+  background-color: #009AD8 !important;
+}
+
+#services .container, #summary .container{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+#services img{
+  border-radius: 5.1rem !important;
+  box-shadow: -18px 20px 72px -36px #000000;
+}
+
+#services h1 {
+  color: white !important;
+}
+
+#contact .container{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#contact .boxes input, #contact .boxes textarea{
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0% !important;
+}
+
+#contact .radios{
+  color: #009AD8 !important;
+}
+
+#contact button{
+  border-radius: 0% !important;
+}
+
+footer {
+  background-color: #009AD8;
+}
+
+footer .sole {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: solid #C6445C 10px;
+  object-position: center 40% !important;
+}
+
+@media (max-width: 991.98px) {
+  #home .slide-2 h2, #home .slide-2 h4{
+    display: none !important;
+  }
+
+  #home .right{
+    left: 55% !important;
+    top: 10% !important;
+  } 
+}
+
+@media (max-width: 575.98px) {
+  #home img{
+    min-height: 400px !important;
+  }
+
+  #home .slide-1 img, #home .slide-2 img{
+    object-position: 100%;
+  }
+
+  #home .slide-3 img{
+    object-position: 50% !important;
+  }
+
+  #home .right{
+    left: 35% !important;
+    top: 10% !important;
+  }
+
+  #home .slide-2 .slide-title{
+    top: 10% !important;
+  }
+
+  #contact .container, #services .container, #summary .container, #who-am-i .container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
