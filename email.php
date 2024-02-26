@@ -138,8 +138,7 @@ if ($arrResponse["success"] == '1' && $arrResponse["score"] >= 0.5) {
       </body>
     </html>
     ';
-    // send_email('info@expandetrading.com', 'Expande', $subject, $message);
-    send_email('raulqatest@gmail.com', 'Expande', $subject, $message);
+    send_email('info@expandetrading.com', 'Expande', $subject, $message);
   }
 }
 ?>

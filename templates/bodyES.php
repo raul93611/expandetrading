@@ -209,10 +209,9 @@
       </div>
       <div class="col-md-3">
         <p>
-          Calle Parroquia 201, interno 1004 <br>
-          Actipan <br>
-          03230 Benito Juárez, CDMX <br>
-          Mexico
+          UPAYA COWORK <br>
+          Calle La Tablada # 1483 <br>
+          Cochabamba, Bolivia
         </p>
       </div>
       <div class="col-md-3">
