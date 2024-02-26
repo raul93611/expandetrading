@@ -55,7 +55,7 @@ if ($arrResponse["success"] == '1' && $arrResponse["score"] >= 0.5) {
                     <tr>
                       <td class="header" style="box-sizing: border-box; font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif; position: relative; padding: 25px 0; text-align: center;">
                         <a target="_blank" rel="noopener noreferrer" href="#" style="box-sizing: border-box; font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif; position: relative; color: #3d4852; font-size: 19px; font-weight: bold; text-decoration: none; display: inline-block;">
-                          <img src="#logo" class="logo" alt="Laravel Logo" style="box-sizing: border-box; font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif; position: relative; max-width: 100%; border: none; height: 40px; max-height: 40px; width: 60px;">
+                          <img src="' . SERVER . '/img/logo.PNG" class="logo" alt="Laravel Logo" style="box-sizing: border-box; font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif; position: relative; max-width: 100%; border: none; height: 40px; max-height: 200px; width: 300px;">
                         </a>
                       </td>
                     </tr>
@@ -138,7 +138,8 @@ if ($arrResponse["success"] == '1' && $arrResponse["score"] >= 0.5) {
       </body>
     </html>
     ';
-    send_email('info@expandetrading.com', 'Expande', $subject, $message);
+    // send_email('info@expandetrading.com', 'Expande', $subject, $message);
+    send_email('raulqatest@gmail.com', 'Expande', $subject, $message);
   }
 }
 ?>

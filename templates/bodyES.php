@@ -1,6 +1,6 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="/img/logo.PNG" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -107,9 +107,9 @@
       <div class="col-md-6">
         <blockquote class="blockquote text-center">
           <p>
-            Creamos valor a través del diseño de una estructura de trabajo específica para cada cliente, así aseguramos que pueda alcanzar metas y objetivos  deseados
+            Creamos valor a través del diseño de una estructura de trabajo específica para cada cliente, así aseguramos que pueda alcanzar metas y objetivos deseados
             Trabajamos con productos y servicios certificados para satisfacer los requerimientos de nuestros clientes
-            A través de  nuestros servicios, ahorramos costos de viajes para  conocer a clientes y/o proveedores, simplificamos la operación de comercio internacional.
+            A través de nuestros servicios, ahorramos costos de viajes para conocer a clientes y/o proveedores, simplificamos la operación de comercio internacional.
           </p>
         </blockquote>
       </div>
@@ -205,7 +205,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        Logo
+        <img class="img-fluid" src="/img/logo.PNG" alt="">
       </div>
       <div class="col-md-3">
         <p>
@@ -217,6 +217,10 @@
       </div>
       <div class="col-md-3">
         <a href="mailto:info@expandetrading.com">info@expandetrading.com</a>
+        <br>
+        <a target="_blank" href="#"><i class="m-2 fab fa-instagram fa-3x"></i></a>
+        <a target="_blank" href="#"><i class="m-2 fab fa-facebook-f fa-3x"></i></a>
+        <a target="_blank" href="#"><i class="m-2 fab fa-youtube fa-3x"></i></a>
       </div>
       <div class="col-md-3">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -240,7 +244,7 @@
     </div>
     <div class="row">
       <div class="col-md-12 text-center">
-        Copyright ©2022 Expande.
+        Copyright ©<?= date('Y') ?> Expande.
       </div>
     </div>
   </div>
@@ -304,3 +308,6 @@
     </div>
   </div>
 </div>
+<a href="https://api.whatsapp.com/send?phone=yourphonenumber&text=Hello,%20I'd%20like%20some%20information" target="_blank" class="btn btn-success rounded-pill whatsapp-button">
+  <i class="fab fa-whatsapp"></i>
+</a>
